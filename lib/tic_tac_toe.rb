@@ -33,4 +33,8 @@ class TicTacToe
   def input_to_index(string)
   @board[string.to_i - 1]
   end
+
+  def position_taken?(index)
+@board[index] == "X" || @board[index] == "O"
+end
 end
