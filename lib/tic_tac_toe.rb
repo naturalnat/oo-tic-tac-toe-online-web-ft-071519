@@ -68,7 +68,7 @@ class TicTacToe
          winningArrays
          true
        else
-       false
-      end
+         false
+       end
    end
 end
