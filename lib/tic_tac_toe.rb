@@ -31,7 +31,7 @@ class TicTacToe
   end
 
   def input_to_index(string)
-  input = @board[sring.to_i-1]
+  input.to_i - 1
   end
 
   def position_taken?(index)
