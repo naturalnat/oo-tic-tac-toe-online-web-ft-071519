@@ -49,10 +49,10 @@ class TicTacToe
    def turn
      puts "make your move"
      input = gets.chomp
-     input = input_to_index(input)
+     index = input_to_index(input)
 
-    if valid_move?(input) == true
-      move(input, current_player)
+    if valid_move?(index) == true
+      move(index, current_player)
       display_board
     else
       turn
