@@ -41,4 +41,17 @@ class TicTacToe
   def valid_move?(position)
      true if position.between?(0,8) && position_taken?(position) == false
    end
+
+   def move(index, move="X")
+     @board[index] = move
+   end
+
+   def turn
+     puts "make your move"
+     input = gets.chomp
+     input = input_to_index(input)
+
+    if valid_move?(input) == true
+
+   end
 end
