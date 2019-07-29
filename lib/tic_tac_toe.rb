@@ -59,5 +59,7 @@ class TicTacToe
     end
    end
 
-
+   def won?
+     WIN_COMBINATIONS.each do |winningArrays|
+   end 
 end
