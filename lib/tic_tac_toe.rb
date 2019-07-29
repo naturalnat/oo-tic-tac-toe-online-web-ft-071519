@@ -67,8 +67,7 @@ class TicTacToe
        elsif @board[winningArrays[0]] == "O" && @board[winningArrays[1]] == "O" && @board[winningArrays[2]] =="O"
          winningArrays
          true
-       end
-     else
+       else
        false
      end
    end
